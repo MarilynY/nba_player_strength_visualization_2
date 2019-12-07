@@ -1,0 +1,15 @@
+.App-logo {
+    height: 40px;
+    margin-left: 20px;
+}
+
+.App-header {
+    background: linear-gradient(0.25turn, #1D428A, #ebf8e1, #f69d3c);
+    /*background-color: #1D428A;*/
+    height: 60px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+
