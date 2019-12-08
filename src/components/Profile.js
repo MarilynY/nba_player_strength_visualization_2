@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import { PROFILE_PIC_URL_PREFIX } from './constants';
-import { TEAM_PIC_URL_PREFIX } from "./constants";
+import { PROFILE_PIC_URL_PREFIX } from '../constants';
+import { TEAM_PIC_URL_PREFIX } from "../constants";
 
 class Profile extends Component {
     render() {

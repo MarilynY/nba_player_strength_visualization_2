@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Profile from './Profile';
-import ShotChart from "./ShotChart";
+import DataViewContainer from "./DataViewContainer";
 import nba from 'nba';
 
 console.log(nba);
@@ -24,7 +24,7 @@ class Main extends Component {
         return (
             <div className="main">
                 <Profile playerInfo={this.state.playerInfo}/>
-                <ShotChart />
+                <DataViewContainer playerId={this.state.playerId}/>
             </div>
         );
     }
